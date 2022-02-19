@@ -265,6 +265,10 @@ section{
     padding-top: 100px;
 }
 
+.about .skills-content1{
+    display: none;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -471,6 +475,10 @@ a.btn-social,
         width: 400px;
         object-fit: cover;
     }
+
+    .about .skills-content1{
+        display: none;
+    }
 }
 
 @media (max-width: 991px) {
@@ -498,6 +506,10 @@ a.btn-social,
         height: 500px;
         width: 400px;
         object-fit: cover;
+    }
+
+    .about .skills-content1{
+        display: none;
     }
 }
 
@@ -570,8 +582,11 @@ a.btn-social,
         object-fit: cover;
     }
     .about .about-content .right{
-        flex: 100%;
+        flex: 100%;    
+    }
 
+    .about .skills-content1{
+        display: none;
     }
 }
 
@@ -602,6 +617,10 @@ a.btn-social,
     .menu-btn i.active:before{
         content: "\f00d";
     } 
+
+    .about .skills-content1{
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
@@ -613,6 +632,15 @@ a.btn-social,
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+
+    .about .skills-content{
+        display: none;
+        
+    }
+
+    .about .skills-content1{
+        display: block;
     }
 
 }
