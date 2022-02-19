@@ -33,6 +33,8 @@ var quotes = [
     'Bless yourself with peace, positivity & purity!',
     'You have the power to make your problem aggravate or diminish with the help of the thoughts you create in your mind associated with your problems.',
     'It\'s not an end, there is always yet more to come!',
+    'अनुशासन के बिना कोई शासन नहीं कर सकता ।',
+    'Self help is the best help!',
 
     ]
     
