@@ -643,4 +643,11 @@ a.btn-social,
         display: block;
     }
 
+    .about .about-content .left img{
+        margin-top: 100px;
+        height: 500px;
+        width: 300px;
+        object-fit: cover;
+    }
+
 }
