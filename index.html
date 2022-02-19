@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<meta name="description" content="Portfolio">
+  		<meta name="author" content="Shruti Sharma">
+		<title>Yashi Kesarwani | Portfolio</title>
+
+		<link rel = "stylesheet" href = "style.css">
+		<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+		<!-- For fixing Uncaught ReferenceError: $ is not defined? -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+		<!-- Font-Awesome -->
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- For Bootstrap table -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+		<style>
+			a{
+				font-size: 20px;
+				color: green;
+			}
+			a:hover {
+				color: purple;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<nav id="navbar" class="navbar">
+			<div class="max-width">
+				<div class="logo"><a href="">Yashi&nbsp;<span style="color: brown;">Kesarwani</span</a>
+				</div>
+				<ul class="menu">
+					<!-- <li><a href="#" >HOME</a></li> -->
+					<li><a href="#about" >About</a></li>
+					<li><a href="#experiences" >Experiences</a></li>
+					<li><a href="#learnings" >Learnings</a></li>
+					<li><a href="#projects" >Projects</a></li>
+					<li><a href="#contact" >Contact</a></li>
+				</ul>
+				<div class="menu-btn">
+					<i class="fa fa-bars"></i>
+				</div>	
+			</div>
+		</nav>
+
+		<!-- Home -->
+		<section class="home" id="home">
+			<div class="max-width">
+				<div class="home-content">
+					<div class = "text">A platform where you can get to know more about me,<br> my experiences & learnings!</div>
+					<!-- <div class="text-1">Hello, My name is </div>
+					<div class="text-2">Yashi Kesarwani</div>-->
+					<!-- <a href="#">Hire me</a> -->
+					<button onclick="newQuote()" class = "button">My convictions</button>
+					<!-- <div class="textstyle" id='quote'>Click for my quotes</div> -->
+
+					<div class="textstyle" style="margin-top: 120px; font-size: 25px; font-weight: 200; color:#fff; border: 1px solid black;
+					background-color: transparent;
+					padding-top: 15px;
+					padding-right: 30px;
+					padding-bottom: 30px;
+					padding-left: 40px; border-radius: 20px;;" id='quote'>Click the button to view a glimpse of my perception!
+					</div>
+				</div>	
+			</div>
+		</section>
+
+		
+		<!-- About -->
+		<section style = "background-color: black;" class="about" id="about">
+			<div class="max-width">
+
+				<h2 class="title">About Me</h2>
+				<div class="about-content">
+					<div class="column left">
+						<img src="img/Yashi3.jpeg" alt="">
+					</div>
+
+					<div class="column right">
+						<div class="text">I'm a <span class="typing-2"></span></div>
+
+						<div class = "" style="font-family: 'Ubuntu', 'sans-serif'; font-weight: 200; color: #fff;"><p>
+							Hey, I am Yashi & my closest ones call me Shivi. I am a Software Development Engineer by profession. I am currently working at Tanla Platforms Limited based on Hyderabad.
+							The technology on which I am currently working are Java, Angular, NodeJs, Javascript, MongoDB, SQL, etc. My Work Experience is 1 year and 2 months.
+							I am looking for better opportunity to work in the Development Profile. I have completed my graduation B.Tech in Computer Science Engineering from IIIT Kalyani, West Bengal.
+							<br><br>
+							In my Free time, you will find me listening/singing Hindi Songs, playing keyboard. I have a big interest in Music and soon I wanna try my hand in Guitar too. 
+							Also apart from Music you can find me reading novels, playing Sudoko, watching primevideos & BKShivani's spiritual series, etc. A girl who prefers tea over coffee!
+							<br><br>
+							Please scroll down a bit more to know about my Skills!
+						    </p>
+							<a class="b" download="YashiKesarwani_Resume.pdf" target="_blank" href="https://drive.google.com/file/d/1lwPIXSwKPseEmBuyooYNsvXqfeFhJVQU/view?usp=sharing">Download CV</a>
+						</div>
+					</div>
+				</div>
+
+				<div style ="margin-top: -7%;" class="skills-content">
+					<div style=" font-size: 35px; padding-bottom: 1%; padding-top: 2%; color: brown; text-align: center; font-weight: 600;" class="">Skills</div>
+					<table class="table" style="font-weight: 100px; font-size: 20px; color: #fff;">
+						<thead>
+						</thead>
+
+						<tbody>
+							<tr>
+								<th scope="row">Programming</th>
+								<td>C/C++</td>
+								<td>Python</td>
+								<td>Java</td>
+							</tr>
+							<tr>
+								<th scope="row">Technical</th>
+								<td>Data Structure & Algorithm</td>
+								<td>Operating System</td>
+								<td>DBMS</td>
+							</tr>
+							<tr>
+								<th scope="row">WEB</th>
+								<td>HTML</td>
+								<td>CSS</td>
+								<td>Bootstrap</td>
+							</tr>
+							<tr>
+								<th scope="row">WEB</th>
+								<td>Angular</td>
+								<td>Javascript</td>
+								<td>Nodejs</td>
+							</tr>
+							<tr>
+								<th scope="row">Databases</th>
+								<td>SQL</td>
+								<td>MongoDB</td>
+								<td>NoSQL</td>
+							</tr>
+							<tr>
+								<th scope="row">Tools</th>
+								<td>Microsoft Azure</td>
+								<td>Git</td>
+								<td>Swagger Hub</td>
+							</tr>
+							<tr>
+								<th scope="row"></th>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>	
+
+			</div>
+		</section>
+		<!-- End of About section -->
+
+
+
+
+
+		<!-- Experience -->
+		<section style = "background-color: rgb(3, 3, 46); padding-top: 5%;" id="experiences" class="resume">
+			<div class="max-width">
+
+				<div class="about">
+					<div style = "margin-top: -5%; margin-bottom: 5%;" class="title">
+						My Experiences
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-6">
+						<h3 class="resume-title">Experiences</h3>
+						<div class="resume-item">
+							<h4><a href="https://www.tanla.com/" target="_blank">Tanla Platforms Limited</a> | SDE -1</h4>
+							<h5>July 2021 - Present | Hyderabad, India</h5>
+							<ul>
+								<li>Working on RCM (Rich Communication Messaging) Platform - A Platform which acts as BSP (Business Solution Provider) for WhatsApp Business API. It helps Brands to connect with their end users through WhatsApp.</li>
+								<li>Tech Stack - Java, Angular, NodeJs, MongoDB and SQL</li>
+								<li>Implemented Feature Helpcenter Resouce Content-Adding component in RCM Config Console. In this feature, Admin can add, edit & delete content or FAQs, upload Image on RCM Config Console Platform.</li>
+								<li>Contributed in Logger Enhancement in the Components of RCM Platform</li>
+								<li>Implemented WABABulkAPI, InteractiveMessageAPI,  CallbackAPI & TemplateManagementAPI Documentation with the help of Swagger Hub</li>
+							</ul>
+						</div>
+
+						<div class="resume-item">
+							<h4><a href="https://maqsoftware.com/" target="_blank">MAQ Software</a> | Software Engineer 1</h4>
+							<h5>Oct 2020 - June 2021 | Hyderabad, India</h5>
+							<ul>
+								<li>Worked on DataOps Team (One Commercial Partner) for Data Management and Reporting to help business users
+									to support their intuition with data.</li>
+								<li>Worked on ETL data processing, monitoring and validations on Microsoft Azure Technology like Azure Data factory & pipelines. Gained working knowledge on Microsoft Azure & SQL.</li>
+								<li>Performed various priority fiscal month data refreshes on
+									production. Identified various production bugs and fixed them</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<h3 class="resume-title"> Internships </h3>
+						<div class="resume-item">
+							<h4><a href="https://bayeslabs.co/" target="_blank">BAYES LAB</a>, Machine Learning Intern</h4>
+							<h5>Jan 2020 - April 2020 | Bangalore, India</h5>
+		
+							<ul>
+								<li>A vibrant startup community transforming drug discovery using Machine Learning, Deep Learning, Data and Genomics</li>
+								<li>Implemented Kdeep paper for the prediction of Protein-Ligand Binding Affinity via 3D CNN on PDBbind (v.2016) database with a RMSE of 1.27%
+								 <br><a style="font-size: 15px;" href="https://github.com/yashikesarwani/Binding-Affinity-Prediction" target="_blank">Github</a>
+								</li>
+								<li>Gained working knowledge on the Pytorch framework</li>
+							</ul>
+						</div>
+
+						<div class="resume-item">
+							<h4><a href="http://www.iitkgp.ac.in/" target="_blank">IIT Kharagpur</a> | Summer Intern</h4>
+							<h5>May 2019 - June 2019 | West Bengal, India</h5>
+							<ul>
+								<li>Implemented a web-based application to visualize and analyze Bio-medical Database using underlying Knowledge Graph made by python on Neo4j Server
+									<br><a style="font-size: 15px;" href="https://github.com/yashikesarwani/Biomedical-Data-Visualization-App" target="_blank">Github</a>	
+								</li>
+								<li>Gained working knowledge of Flask framework and web technology components</li>
+							</ul>
+						</div>
+
+						<div class="resume-item">
+							<h4><a href="https://www.smartknower.com/" target="_blank">Smartknower</a> | Training in Machine Learning</h4>
+							<h5>July 2k20-Sept 2k20</h5>
+							<ul>
+								<li>Learned and did Implementation of different Machine Learning Algorithms such as Linear and Logistic Regression, SVM, Decision Trees, etc.</li>
+								<li>Implemented a Review Classification App on the Twitter data and deployed it on Heroku using Streamlit
+									<br><a style="font-size: 15px;" href="https://github.com/yashikesarwani/ReviewClassification_StreamlitDeploymnt" target="_blank">Github</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Experience Section -->
+
+
+		<!-- Learnings -->
+		<section style = "background-color:rgb(3, 3, 46); padding-top: 5%; padding-bottom: 1%;" id="learnings" class="resume">
+			
+			<div class="max-width">
+			    <div class="about">
+					<div style = "margin-top: -5%; margin-bottom: 5%;" class="title">
+						My Learnings
+					</div>
+			    </div>
+		
+			    <div class="row">
+					<div class="col-lg-6">
+						<h3 class="resume-title">Education</h3>
+						<div class="resume-item">
+							<h4>Bachelor of Technology, Computer Science </h4>
+							<h5>2016 - 2020</h5>
+							<p> Indian Institute of Information Technology, Kalyani<br>
+							CGPA: 9.03/10</p>
+							<a href=" https://drive.google.com/drive/folders/19zMZGSxKWJzQihk2L0gM51QL3DujNx82?usp=sharing" target="_blank">Courses at IIITK</a>
+						</div>
+						<div class="resume-item">
+							<h4>Senior Secondary Education</h4>
+							<h5>2014 - 2015</h5>
+							<p>Vishnu Bhagwan Public School, Allahabad<br>
+							Percentage: 90.60% (CBSE)</p>
+						</div>
+
+						<div class="resume-item">
+							<h4>Secondary Education</h4>
+							<h5>2012 - 2013</h5>
+							<p>Vishnu Bhagwan Public School, Allahabad<br>
+							Percentage: 95% (CBSE)</p>
+						</div>
+
+						<h3 class="resume-title">POR</h3>
+						<div class="resume-item pb-0">
+							<ul>
+							<li><span style="color: brown;">Member of Training and Placement Cell</span> at IIIT Kalyani</li>
+							<li><span style="color: brown;">Vice President and Secretory of Symphony (Music Club)</span> at IIIT Kalyani</li>
+							<li><span style="color: brown;">Lead Member of Decoration Team</span> at IIIT Kalyani</li>
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-lg-6">
+						<h3 class="resume-title"> Certifications </h3>
+						<div class="resume-item">
+							<h4>Full Stack Development | MERN</h4>
+							<h5>LearnCodeOnline | 2021</h5>
+							<ul>
+								<li>Did a course on Tech Stack MERN - MongoDB, Express, React & Nodejs from LearncodeOnline.</li>
+								<li>Implemented an Restaurant Data Management System with the features add, update, list and delete data records and learned various other things</li>
+								<li>Got a deep knowledge on working of end to end development i.e frontend, backend, integration of frontend to backend</li>
+							</ul>
+						</div>
+						<div class="resume-item">
+							<h4>Application Security - The Complete Guide</h4>
+							<h5>Udemy | 2022</h5>
+							<ul>
+								<li>This course familiarized with the common vulnerabilities that plague developed code can have and familiarized to OWASP Top 10 and SANS Top 25.</li>
+								<li>What type of development behaviors lead to vulnerabilities and how to avoid those behaviors when creating secure code. Building security in to the software development life cycle.
+									<br><a style="font-size: 15px;" href="https://www.udemy.com/certificate/UC-4237684b-2e52-4193-b376-5e78ac80ec48/" target="_blank">Certificate</a></li>
+								
+							</ul>
+						</div>
+
+						<h3 class="resume-title">Workshops</h3>
+						<div class="resume-item pb-0">
+							<ul>
+								<li>Attended Workshop on <span style="color: brown;">Cyberspace and Cyber Security</span> held at IISER Kolkata</li>
+								<li>Attended Workshop on <span style="color: brown;">Python and its Applications</span> with IOT at IIIT Kalyani</li>
+								<li>Did <span style="color: brown;">"Inspire Internship Program 2013”</span> held under “6th International Science Conclave 2013” at IIIT Allahabad</li>
+								
+							</ul>
+						</div>
+
+					</div>
+			    </div>
+			</div>
+		</section>  
+	    <!-- End of Learnings Section -->
+
+		
+	    <!-- Project -->
+		<section style = "background-color: black; padding-top: 5%;" id="projects" class="resume">
+			<div class="container">
+			
+				<div class="about">
+					<div style = "margin-top: -5%; margin-bottom: 5%;" class="title">
+						My Works 
+					</div>
+				</div>
+		
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="resume-item">
+							<h4>Employee Management System</h4>
+							<h5>2021 | Java, SQL</h5>
+							<ul>
+								<li>Implemented an Employee Management System with the features creating a list of employee, add, update and delete employee records, pagination and sorting.</li>
+								<li>Implemented using Java, MySQL, HTML, CSS & Bootstrap</li>
+							</ul>
+						</div>
+
+						<div class="resume-item">
+							<h4>Restaurant Data Management System</h4>
+							<h5>2021 | Angular, NodeJs</h5>
+							<ul>
+								<li>Implemented an Restaurant Data Management System with the features add, update, list and delete data records.</li>
+								<li>Implemented using Angular, Nodejs MySQL, HTML, CSS & Bootstrap</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="resume-item">
+							<h4>Music Recommendation System</h4>
+							<h5>2020 | ML</h5>
+							<ul><li>Implemented a Content based and Collaborative Filtering Music Recommendation System to recommend the next n songs to user.</li>
+								<li>For Content based used TF-IDF Vectorizer. For Collaborative Filtering used KNN and Matrix Factorization Algorithm (RMSE-2.17)
+									<br><a style="font-size: 15px;" href="https://github.com/yashikesarwani/Music-Recommendation-System" target="_blank">Github</a>
+								</li>
+								
+							</ul>
+						</div>
+
+						<div class="resume-item">
+							<h4>Reaction.AI</h4>
+							<h5>2019 | IIIT Allahabad at HINT 4.0 </h5>
+							<ul>The whole idea of this project is to provide an API for real-time analysis of human sentiments 
+								while they’re watching content like videos online. We aimed to solve this problem using deep- learning.
+								<br><a style="font-size: 15px;" href="https://github.com/yashikesarwani/HINT4.0" target="_blank">Github</a>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Project Section -->
+
+
+		<!-- Contact  -->
+		<section class="contact" id="contact">
+			<div class="container" data-aos="fade-up">
+				<div class = "xyz">
+					<h2 style="color:#fff; font-size: 40px;">Let's <i class="fas fa-heart" style="color: red;"></i> connect!</h2>
+				</div>
+					<h6 style="color:#fff; font-size: 18px; color: brown;">You can get in touch with me / Send suggestions, improvements, money, tea-date invites, or dresses via any below!
+					</h6><br> 
+			
+			    <!-- reference -https://codepen.io/codename065/pen/doyRNw/ -->
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="https://www.facebook.com/iam_yashik/" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a></li>	
+					<li class="list-inline-item"><a href="https://github.com/yashikesarwani" target="_blank" class="btn-social btn-github"><i class="fa fa-github"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.instagram.com/im_yashik/" target="_blank" class="btn-social btn-instagram"><i class="fa fa-instagram"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.linkedin.com/in/imyashik/" target="_blank" class="btn-social btn-linkedin"><i class="fa fa-linkedin"></i></a></li>
+					<li class="list-inline-item"><a href="https://twitter.com/im_yashik" target="_blank" class="btn-social btn-twitter"><i class="fa fa-twitter"></i></a></li>
+					<li class="list-inline-item"><a href="mailto:yashi@iiitk.ac.in?subject=Inquiry from Portfolio" target="_blank" class="btn-social btn-email"><i class="fa fa-envelope"></i></a></li>
+				</ul>
+				<h3 style="color: #fff; font-size: 12px;">Please bless me with your positive energies, radiations & vibrations to seek what is seeking me!
+				<br>"Our Desires + Our Vibrations + Our Actions" = "Our Reality"</h3>
+			
+			</div>
+			
+			
+		</section>
+		<!-- End of Contact Section -->
+		
+		<center><footer style="background-color: black; padding-top: 12px;">
+			<div class="container">
+			  <img src="https://visitor-badge.glitch.me/badge?page_id=https://shruti-codes.github.io" alt="Views"/>
+			  <p style="color: grey;">&copy; My Portfolio Website 2022. Some Rights Reserved.</p>
+			</div>
+		</footer></center>
+		
+
+		<script src="script.js"></script>
+	</body>
+</html>
