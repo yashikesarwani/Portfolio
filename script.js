@@ -17,7 +17,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing-2", {
-        strings: ["Full Stack Developer", "Programmer", "Music Lover", "Piano Player"],
+        strings: ["Full Stack Developer", "Designer", "Programmer", "Piano Player"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -35,6 +35,11 @@ var quotes = [
     'It\'s not an end, there is always yet more to come!',
     'अनुशासन के बिना कोई शासन नहीं कर सकता ।',
     'Self help is the best help!',
+    'Whatever we think and speak, gets manifested.',
+    'Keep no label for yourslef, recreate yourself daily.',
+    'Strangers make the best mirrors!',
+    'What may you want, may not be what you need.',
+    'You may keep chasing what you want but you will attract only what you need.',
 
     ]
     
